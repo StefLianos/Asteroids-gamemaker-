@@ -7,18 +7,27 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\player_sprite</sprite>
+    <sprite>sprites\spr_player_i</sprite>
     <sprite>sprites\spr_bullet</sprite>
     <sprite>sprites\spr_asteroid</sprite>
     <sprite>sprites\spr_asteroid_s</sprite>
+    <sprite>sprites\player_death</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\fnt_small</font>
+    <font>fonts\fnt_large</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_player</object>
     <object>objects\obj_bullet</object>
     <object>objects\obj_asteroid</object>
     <object>objects\obj_asteroid_s</object>
     <object>objects\obj_score</object>
+    <object>objects\obj_spawner</object>
+    <object>objects\obj_player_death</object>
+    <object>objects\obj_gameover</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main_game</room>
